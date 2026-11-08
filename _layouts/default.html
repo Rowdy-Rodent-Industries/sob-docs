@@ -1,1 +1,56 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{{ page.title | default: site.title }} | {{ site.title }}</title><link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}"></head><body><header class="top"><a class="brand" href="{{ '/' | relative_url }}">SOB <span>Documentation</span></a><button class="menu" onclick="document.body.classList.toggle('nav-open')" aria-label="Toggle navigation">☰ Menu</button></header><div class="shell"><nav class="sidebar" aria-label="Documentation"><div class="navlabel">OVERVIEW</div><a href="{{ '/' | relative_url }}">Home</a><div class="navlabel">COMMUNITY</div><a href="{{ '/sob-constitution' | relative_url }}">SOB Constitution</a><div class="navlabel">MISSION MAKING</div><a href="{{ '/objective-collection' | relative_url }}">Objective Collection</a><a href="{{ '/zeus-asset-limitations' | relative_url }}">Zeus Asset Limitations</a><div class="navlabel">FIELD REFERENCES</div><a href="{{ '/map-marker-cheat-sheet' | relative_url }}">Map Marker Cheat Sheet</a><a href="{{ '/tactical-tasks' | relative_url }}">Tactical Tasks</a><a href="{{ '/base-keybindings' | relative_url }}">Base Keybindings</a></nav><main class="content"><article>{{ content }}</article><footer>Special Operations Brigade · Documentation</footer></main></div></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>{{ page.title | default: site.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <script src="{{ '/assets/search.js' | relative_url }}" defer></script>
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="{{ '/' | relative_url }}"><span class="brand-icon">S</span><span>SOB <strong>Docs</strong><small>KNOWLEDGE BASE</small></span></a>
+    <div class="top-actions"><button class="search-trigger" type="button" id="open-search" aria-haspopup="dialog" aria-controls="search-dialog"><span aria-hidden="true">⌕</span> Search documentation <kbd>/</kbd></button><button class="menu" id="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">☰</button></div>
+  </header>
+  <div class="shell">
+    <nav class="sidebar" aria-label="Documentation">
+      <div class="navlabel">GET STARTED</div>
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>⌂ &nbsp; Overview</a>
+      <div class="navlabel">COMMUNITY</div>
+      <a href="{{ '/sob-constitution' | relative_url }}" {% if page.title == 'SOB Constitution' %}aria-current="page"{% endif %}>SOB Constitution</a>
+      <div class="navlabel">MISSION MAKING</div>
+      <a href="{{ '/objective-collection' | relative_url }}" {% if page.title == 'Objective Collection' %}aria-current="page"{% endif %}>Objective Collection</a>
+      <a href="{{ '/zeus-asset-limitations' | relative_url }}" {% if page.title == 'Zeus Asset Limitations' %}aria-current="page"{% endif %}>Zeus Asset Limitations</a>
+      <div class="navlabel">FIELD REFERENCES</div>
+      <a href="{{ '/map-marker-cheat-sheet' | relative_url }}" {% if page.title == 'Map Marker Cheat Sheet' %}aria-current="page"{% endif %}>Map Marker Cheat Sheet</a>
+      <a href="{{ '/tactical-tasks' | relative_url }}" {% if page.title == 'SOB Tactical Tasks' %}aria-current="page"{% endif %}>Tactical Tasks</a>
+      <a href="{{ '/base-keybindings' | relative_url }}" {% if page.title == 'Base Keybindings' %}aria-current="page"{% endif %}>Base Keybindings</a>
+      <div class="navlabel">TRAINING REFRESHERS</div>
+      <a href="{{ '/training-reminders' | relative_url }}" {% if page.title == 'Training Reminders' %}aria-current="page"{% endif %}>Training Reminders</a>
+      <a href="{{ '/demolition-reference' | relative_url }}" {% if page.title == 'Demolition Reference' %}aria-current="page"{% endif %}>Demolition Reference</a>
+      <a href="{{ '/assault-reference' | relative_url }}" {% if page.title == 'Assault Reference' %}aria-current="page"{% endif %}>Assault Reference</a>
+      <a href="{{ '/recon-reference' | relative_url }}" {% if page.title == 'Recon Reference' %}aria-current="page"{% endif %}>Recon Reference</a>
+      <a href="{{ '/medical-reference' | relative_url }}" {% if page.title == 'Medical Reference' %}aria-current="page"{% endif %}>Medical Reference</a>
+      <a href="{{ '/platoon-leader-handout' | relative_url }}" {% if page.title == 'Platoon Leader Handout' %}aria-current="page"{% endif %}>Platoon Leader Handout</a>
+      <a href="{{ '/insertions-reference' | relative_url }}" {% if page.title == 'Insertions Reference' %}aria-current="page"{% endif %}>Insertions Reference</a>
+      <a href="{{ '/technician-reference' | relative_url }}" {% if page.title == 'Technician Reference' %}aria-current="page"{% endif %}>Technician Reference</a>
+      <a href="{{ '/arc-reference' | relative_url }}" {% if page.title == 'ARC Reference' %}aria-current="page"{% endif %}>ARC Reference</a>
+      <a href="{{ '/commando-reference' | relative_url }}" {% if page.title == 'Commando Reference' %}aria-current="page"{% endif %}>Commando Reference</a>
+      <div class="sidebar-bottom"><span class="status-dot"></span> Community reference library</div>
+    </nav>
+    <main class="content" id="main-content">
+      <div class="breadcrumbs"><a href="{{ '/' | relative_url }}">Documentation</a><span>/</span><span>{{ page.title | default: 'Overview' }}</span></div>
+      <article>{{ content }}</article>
+      <footer>Special Operations Brigade <span>·</span> Documentation Library</footer>
+    </main>
+  </div>
+  <div class="search-overlay" id="search-dialog" role="dialog" aria-modal="true" aria-label="Search documentation" hidden>
+    <div class="search-panel">
+      <div class="search-field"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="Search documents, rules, objectives…" autocomplete="off" aria-label="Search documentation"><button id="close-search" type="button" aria-label="Close search">Esc</button></div>
+      <div id="search-results" class="search-results" aria-live="polite"><p class="search-hint">Start typing to search all documentation.</p></div>
+      <div class="search-footer">Searches page titles and document text <span>Press / to open</span></div>
+    </div>
+  </div>
+</body>
+</html>

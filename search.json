@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /search.json
+---
+{% assign docs = site.pages | where_exp: "p", "p.title != nil" %}
+[{% for p in docs %}{% unless forloop.first %},{% endunless %}{"title":{{ p.title | jsonify }},"url":{{ p.url | relative_url | jsonify }},"content":{{ p.content | markdownify | strip_html | normalize_whitespace | jsonify }}}{% endfor %}]
