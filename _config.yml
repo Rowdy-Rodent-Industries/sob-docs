@@ -1,4 +1,9 @@
+
 title: SOB Documentation
 description: Special Operations Brigade documentation and reference library
+
+url: "https://rowdy-rodent-industries.github.io"
+baseurl: "/sob-docs"
+
 markdown: kramdown
 permalink: pretty
