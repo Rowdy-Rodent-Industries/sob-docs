@@ -3,6 +3,7 @@
   const input = document.getElementById('search-input');
   const results = document.getElementById('search-results');
   const trigger = document.getElementById('open-search');
+  const sidebarSearch = document.getElementById('sidebar-search');
   const close = document.getElementById('close-search');
   const menu = document.getElementById('menu-toggle');
   let documents = null;
@@ -46,12 +47,13 @@
     results.innerHTML = matches.length ? matches.map(m => `<a class="result" href="${escapeHtml(m.url)}"><div class="result-title">${escapeHtml(m.title)}</div><div class="result-snippet">${escapeHtml(m.snippet)}</div></a>`).join('') : '<p class="search-hint">No matching documents found. Try a different term.</p>';
   }
   trigger?.addEventListener('click', openSearch);
+  sidebarSearch?.addEventListener('click', openSearch);
   close?.addEventListener('click', closeSearch);
   overlay?.addEventListener('click', e => { if (e.target === overlay) closeSearch(); });
   input?.addEventListener('input', render);
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape' && !overlay.hidden) closeSearch();
-    if (e.key === '/' && overlay.hidden && !['INPUT','TEXTAREA'].includes(document.activeElement.tagName) && !document.activeElement.isContentEditable) { e.preventDefault(); openSearch(); }
+    if ((e.key === '/' || (e.key.toLowerCase() === 'k' && (e.ctrlKey || e.metaKey))) && overlay.hidden && !['INPUT','TEXTAREA'].includes(document.activeElement.tagName) && !document.activeElement.isContentEditable) { e.preventDefault(); openSearch(); }
   });
   menu?.addEventListener('click', () => { const open = document.body.classList.toggle('nav-open'); menu.setAttribute('aria-expanded', String(open)); });
 })();

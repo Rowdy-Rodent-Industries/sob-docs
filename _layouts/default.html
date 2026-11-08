@@ -11,10 +11,11 @@
 <body>
   <header class="top">
     <a class="brand" href="{{ '/' | relative_url }}"><span class="brand-icon">S</span><span>SOB <strong>Docs</strong><small>KNOWLEDGE BASE</small></span></a>
-    <div class="top-actions"><button class="search-trigger" type="button" id="open-search" aria-haspopup="dialog" aria-controls="search-dialog"><span aria-hidden="true">⌕</span> Search documentation <kbd>/</kbd></button><button class="menu" id="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">☰</button></div>
+    <div class="top-actions"><button class="search-trigger" type="button" id="open-search" aria-haspopup="dialog" aria-controls="search-dialog"><span aria-hidden="true">⌕</span> <span class="search-label">Search documentation</span> <kbd>/</kbd></button><button class="menu" id="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">☰</button></div>
   </header>
   <div class="shell">
     <nav class="sidebar" aria-label="Documentation">
+      <button class="sidebar-search" type="button" id="sidebar-search">⌕ &nbsp; Search all documents <span>/</span></button>
       <div class="navlabel">GET STARTED</div>
       <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>⌂ &nbsp; Overview</a>
       <div class="navlabel">COMMUNITY</div>

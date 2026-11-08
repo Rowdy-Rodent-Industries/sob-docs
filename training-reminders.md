@@ -6,12 +6,6 @@ category: Training Refreshers
 
 # Training Reminders
 
-[View original PDF]({{ "/assets/training/training-reminders.pdf" | relative_url }}) · 13 pages
-
-> This page is transcribed from the original SOB training document. Refer to the linked PDF for the original tables, figures, and layout.
-
-## Page 1
-
 TRAINING NOTES
 
 CC-6221/54 “Scorch”
@@ -72,8 +66,6 @@ M4A1 Slam- Directional explosive good for mine clearing while somewhat effective
 
 light vehicles and infantry
 
-## Page 2
-
 M18A1 Claymore- Bigger brother to slam and much more effective on infantry and very
 
 good at mine clearing
@@ -115,8 +107,6 @@ Land Nav- Use a route that subdivides the distance into several smaller parts us
 mark various stages.
 
 Stealth- Key for recon units
-
-## Page 3
 
 Prowler 500- Recon Drone. Setup, operates on UAV terminal, can be deployed and repacked, needs
 
@@ -166,8 +156,6 @@ HVTs - Ions for droids, stuns for humanoids
 
 RFX/K Medisensor - Establishes patients vitals, used on chest, takes 10 seconds to use Field Defib Unit - Can instantly reestablish a patient's heart rate, causes significant pain Bacta patch - Good for healing a severely damaged limb, bulky and has a long application time Bacta Spray - Good for healing minor wounds, ineffective at any medium wounds but it is small and has a fast application time Stretcher - Put critically wound patients on this to prevent them from bleeding out Custom medications Batrox - Slows the bleeding of a patient Deraformine - Knocks a patient out after 10 seconds Latheniol - Euthanization drug, kills patient after 60 seconds and knocks them out after 30 seconds, can only be used after Field support or a CO has given permission, should be only used as last resort
 
-## Page 4
-
 Nevastrin-8 - dangerously increases a patient’s heart rate the more it is used, lethally incompatible with morphine, use Medi Sensor before use PBA - Fondly referred to as “Commando Crack”. Single use - increased pain tolerance, movement speed, heart rate. Double Dose - PBA Overdrive - Increases the aggression of a person and during the short time a patient cannot bleed out but the time is very short and will result in cardiac arrest Vutalamine - Greatly reduces weapon sway, moderately reduces heart rate and movement speed Medic Frequency - SR 425 Blood loss - Be sure to keep a patient’s blood volume above fatal or above 3000mL Reorient (use advanced treatment on the head)- To reorient a person they must be at lost some blood (5100-6000mL) and they must have a heart rate
 
 - Adv Insertions Training Notes
@@ -184,8 +172,6 @@ Optional/Specialty trainings (Commando, ARC, Assassin, FS, Pilot, RTO, SL, PLT, 
 
 Equipment (binds are found within MokTech Industries Core) Suit Systems
 
-## Page 5
-
 TRX-200 Mine Detector - Mine detector directly integrated into the Commando armour, improved TRX-12 with increased radius (demo only) ST-91 Wrist Stun Device - Taser that works up to 5 metres, must look at target to use Deflector shield - Shield that blocks some damage but will not absorb all damage, does not protect from fall damage Helmet Systems Intercom - SR but within the RC’s helmet, effective up to 200 metres and disables helmet speakers which doesn’t allow for RC’s to communicate to other troopers while intercom is turned on. Low Light mode - Will greatly increase visibility without having to turn on NVGs provided there is enough light HUD Systems Status Panel and Team panel Backpack Systems Emergency Beacon Medics - Squad shields, absorbs all blaster fire but explosions can go through shield, lasts 4 minutes, and you can shoot out of the shield but not in Demos - Mine Dispenser, backpack shoots mines out of the BACKPACK in a 60° area CQC Specialist - Caltrop dispenser, works same as demo but deploys caltrops Other Equipment Wristblade very deadly, kills everything you love at a close range in a wide arc CTAB - better MicroDagr
 
 ### Weapons
@@ -198,8 +184,6 @@ Assassin Training Notes
 
 Drone - Known as the ADRIAN drone, is used for reconnaissance as it has flight capabilities. The drone should be set to 500 metres high to give it a balance of avoiding detection and visibility on the target. Assembling the drone requires a drone battery and upon placement of the drone requires the battery to be inserted. You also need a UAV terminal to control the drone and give it commands. Commands are done via ACE interact / ACE self interact. The drone carries a stealth system and to use it set the drone up and do ACE INTERACT and enable it through there.
 
-## Page 6
-
 DP-23 Shotgun - A standard shotgun best used in CQB environments. DC-19SC - A stealth carbine capable of using STEALTH rounds which do not alert enemies nearby once fired. DC-15X - Sniper rifle able to use the following rounds, standard, tranquiliser darts, Latheniol heart attack rounds, stealth rounds. DC-19s - A rechargeable pistol that is reliable for close - medium range. DC-19LE - Marksman rifle able to use stealth shot. NT-242 HEAVY RIFLE - Anti vehicle, armour, emplacement rife. Single shot with 2 types of ammo, HE and AP, HE can be used for anti infantry and other targets relating to lightly/ no armour. AP revolves around the use of armour. Tanks, cars and emplacements. Blades - Used for duelling other melee units and collaboration take downs on B2 Playstyle Use your brain Kill priority targets that impact the team and or mission first (tanks and other such) Coordination is key Being spotted isn’t game over, rely on the camouflage and relocate. Evade patrols and other obstacles is a option
 
 - ARC Training notes
@@ -207,8 +191,6 @@ DP-23 Shotgun - A standard shotgun best used in CQB environments. DC-19SC - A st
 ### Equipment
 
 ST-91 Stun Device - Temporarily incapacitated targets, use ST-91 Cartridge to reload it via ACE self interact MM9 Wrist Rocket - Useful for anti tank and other ammunition to support it. HE, STUN, Ion, EMP, Smokes. Configurable keybinds done via Mokktech controls. Do NOT fire in close proximity Squad Leader Beacon - Squad leads use this when their squad is in danger of dying. DC-17s Dual Pistols - Used in both single and double mode. Duel allows for a greater mag along with suppression power but removes the more accurate ADS. It does have a ADS but rather a ball of where predicted shots would land. Unable to use STUN or ION. Single mode is for greater accuracy and range, both semi or full auto firing modes. Allows for holo sights as well as stun and ion rounds. RPS Heavy Projectile - AA and AT capabilities, lock on mechanism with DIRECT top down fire modes. RD-4 Grenade Launcher - Fire standard and radiation rounds, both devastating. Can be fired in rapid fire. Verpine Shatter Rifle - Silent, Effective up to 1.5 km, Multiple munitions (Flechette, Ion, acid, deraformine, lathanol, tracking, 5rnd APDS. Does come with a scope that calculates the range and other info. HAS BULLET DROP Bowcaster - Both single and heavy rounds, heavy rounds fire a explosive round that has AOE abilities. EPL-2 EMP launcher - Used against droids to disable them. If friendly fire occurs THEY SHUT OFF RADIOs ON FRIENDLY Scatter Gun - Shotgun
-
-## Page 7
 
 ACP repeater - Close quarters combat, high rate of fire, only use in QCQ. HIGH RECOIL. LS-150 Heavy Repeater - Suppression weapon, not very accurate. NO SIGHT fire from THE HIP. ZH-73 - Same range as DC-15a and fully automatic like the DC-15s. Mid-long range is its main work load. Hard hitting RSKF-44 Pistol - High powered 8 round blaster that kills lightly armoured enemies with one shot. Best used for short to medium range. DAMAGE DROPOFF DOES APPLY. Tactics Arc troopers act more independently then other elements due to their versatility Follow the buddy system Buddy teams are used to execute flanks and other strategies. Adapt quickly to changing scenarios, able to move quickly to respond to certain situations. ARC Troopers are less armoured then other units, this means they utilise recon and PLANNING. Following tactics commonly used, Alternative bounding, Successive bounding, PEELING. ARC kits are made for versatility
 
@@ -223,8 +205,6 @@ Test and Exercises For more info contact CX-O-2798 “Carmichael” or any certi
 - RTO Training Notes
 
 Set LR to different ears if you will be on multiple LR Frequencies Accessed by Alt+P and to set to different ears click STO Radio Etiquette - Let others finish what they have to say, DO NOT USE OVER AND OUT USE ONE OR THE OTHER BUT NOT BOTH TOGETHER Important terms Lima Charlie - Loud and Clear
-
-## Page 8
 
 Say Again - Repeat Message Repeat Last - Repeat last FIRE mission Over - Message done, want a response Out - Message done, don’t want a response Wilco - Will Comply Good Readback/Readback Correct - Info sent back to you is correct Break, Break, Break - Used in emergency situations Wave-off - Tells X-Ray to go away Radio Messages/formats - For CAS, MEDEVAC you can self-interact and go to cue cards for 5-Liner FAC and MEDEVAC. To call in artillery give callsign, warning order (Adjust fire, Fire for Effect, Suppress, Immediate Suppression/Smoke), location of target, description of target Critical Transmissions MASCAS - Many people are dead, dying, or soon to be dead Broken Arrow - Calls cas on a troopers location, chance to kill friendlies, works like cas request but Broken Arrow must be called 3 times before doing the CAS request
 
@@ -247,8 +227,6 @@ Differences Between RC and ARC specialists (Medics, demos, other roles) Medic - 
 - Platoon Leading Training Notes
 
 Conduct - Be respectful, act in a manner that positively reflects the unit, do not disobey direct orders, do not cause drama, and do not antagonise any member, squad, or platoon under your command.
-
-## Page 9
 
 Leadership types Directing - Gives detailed instructions on how to do things Participating - Asking for input but making the final decision Delegating- Delegating responsibilities to different members/staff at your disposal Transformational - Focuses on empowerment and motivation and justifies the choices you make Roles and Responsibilities of a Plt CO & XO CO - coordinates squads, supervises execution of mission, guides the platoon’s fight, allow SQLs to make their own solutions (communicate mission intent), use PSG to lighten workload, give feedback to Company, asks for Company feedback if unsure of a specific action, monitors LR 45 Plt XO - Searches for ways to help CO, leads the Plt if CO is not at op or incapacitated, monitors LR 46 and coordinates with supporting elements Be sure to utilise other detachments like Covert Ops, X-Ray, and Field Support to provide resupplies or to help support the platoon. Know the contingencies in SQL training Differences between ARC and RC Squads Gameplay ARC Squads - These squads are far more versatile in how they can operate. Whether you need medics, demos, recon they can do it all and are often called scalpels in comparison to RC squads. ARC squads are ideally ahead of a movement providing recon and not actively engaging a target or base until they can get support. RC Squads - Unlike ARC squads, RC squads are specialised in what they can do and are less versatile. However, RCs can absorb much more punishment and they can be used to deliver a heavy blow. RC squads are ideally the spearhead of an assault are often called hammers because they are meant for one thing and one thing only. Succession of Command on Company level Company
 
@@ -292,8 +270,6 @@ Squad
 
 - Shadow Training Notes Shadow Troopers specialise in ambush tactics and rapid hit-and-run engagements. Ethical guidelines mandate fair play and prohibit abuse of abilities.
 
-## Page 10
-
 Unique equipment includes DC-19 blasters with Stealth and Remote Injection Rounds, Technician’s Datapad for hacking, and Mercenary Disguise Kits. Ambush tactics involve covert approaches, target prioritisation, and coordinated hacking and assault. Movement prioritises stealth, with troopers staying crouched and using overwatch positions for reconnaissance. Exfiltration routes are planned post-objective completion. Success relies on strategic planning, precise execution, and adherence to ethical guidelines.
 
 - Tech Training Notes
@@ -303,8 +279,6 @@ Equipment (binds are found within MokTech Industries Core) Technicians Datapad -
 Hacks Droid Hack - Hacks a single droid and causes the droid to switch sides, if the hack fails the user suffers heart failure due to droid short circuiting. Range- in front of user Droid wave - User is able to send out a signal in a short radius around them causing 5 (15 with antenna) droids to switch sides and operate with the user for 30 seconds. If the hack fails droids will know the exact location of the user and run at them. Range 100-250 metres Droid Stop - User sends out a signal that causes all nearby droids to stop fighting for 30 seconds. If a hack fails droids will know the location of the user and hunt them down. Range 100-250 metres Droid Flee - Causes droids to run until they are 100 metres away from the hacker. If the hack fails droids will know the exact location of the user and run at them. Range 100-250 metres Droid Disrupt - User sends out a signal that disrupts the droids’ accuracy to significantly drop for 30 seconds. If the hack fails the droids will receive a large boost in skill. Range 100-250 metres Mine Disable - Disables mines close to a user for two minutes. If the hack fails the minefield instantly detonates. Range 100-250 metres Hack Remote - Takes control of a single droid for 90 seconds, if the droid shoots its gun it becomes hostile to the other droids and if the hack fails the droid short circuits and stops the hacker’s heart. Range 100-250 metres Turrets Blaster Turret (Packed) A placeable blaster turret which will engage any OPFOR targets.
 
 Auto Turret (Packed) A throwable auto turret which will engage any OPFOR targets.
-
-## Page 11
 
 MSE-6
 
@@ -344,8 +318,6 @@ ON HIT - If the MSE takes any amount of damage, the MSE will detonate.
 
 ON IMMOBILIZED - If the MSE becomes immobilised, the MSE will detonate.
 
-## Page 12
-
 Relations Type The Relations type is what side the droid will be on in Arma 3. It's recommended to use the side of the enemy to avoid the droid from being shot.
 
 RETAINER - The MSE will be on the side of the user.
@@ -361,8 +333,6 @@ INDEP - The MSE will be on the INDEP side.
 -Talk to Arcanist Tech Cheat sheet
 
 Tech Cheat Sheet
-
-## Page 13
 
 Figure 1a: Images should not exceed 7 inches in width, and should be captioned appropriately.
 

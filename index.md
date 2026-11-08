@@ -5,7 +5,7 @@ title: Home
 
 # Special Operations Brigade
 
-Welcome to the SOB documentation library. Choose a reference from the sidebar to get started.
+Welcome to the SOB documentation library. Browse by section or use **Search documentation** in the top navigation to find any topic, training note, or rule.
 
 ## Community
 

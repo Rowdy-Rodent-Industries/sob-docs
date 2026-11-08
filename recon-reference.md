@@ -6,10 +6,6 @@ category: Training Refreshers
 
 # Recon Reference
 
-[View original PDF]({{ "/assets/training/recon-reference.pdf" | relative_url }}) · 2 pages
-
-> This page is transcribed from the original SOB training document. Refer to the linked PDF for the original tables, figures, and layout.
-
 RECONNAISSANCE REFERENCE
 
 CC-6221/54 “Scorch”

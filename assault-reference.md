@@ -6,10 +6,6 @@ category: Training Refreshers
 
 # Assault Reference
 
-[View original PDF]({{ "/assets/training/assault-reference.pdf" | relative_url }}) · 3 pages
-
-> This page is transcribed from the original SOB training document. Refer to the linked PDF for the original tables, figures, and layout.
-
 CC-6221/54 “Scorch”
 
 RC-5130/76 “Noble”

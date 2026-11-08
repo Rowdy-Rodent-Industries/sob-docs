@@ -6,81 +6,45 @@ category: Training Refreshers
 
 # Commando Reference
 
-[View original PDF]({{ "/assets/training/commando-reference.pdf" | relative_url }}) · 4 pages
-
-> This page is transcribed from the original SOB training document. Refer to the linked PDF for the original tables, figures, and layout.
-
-## Page 1
+### COMMANDO REFERENCE
 
 Alpha-104 “Spider”
 
-### Usage
+## Usage
 
 Commando Reference covers the Katarn Armor, DC-17M and DC-15s Sidearm. All other weapons will not be covered, please use the training server to explore the weapons provided. Commandos specialize in Close Quarters Fighting along with some long range capability, they are the bread and butter of urban fighting.
 
-### Equipment
+## Equipment
 
 ### Katarn Armor
 
 The Katarn Armor has a couple options available to the user. From deflector shields that stop incoming damage to being a mobile mine dispenser. Here's a list.
 
-The Deflector Shield System is the shield that every Deflector Shield System commando is equipped with. They have a max charge of 100 and negate damage done to commandos when they are online. The charge for them can be seen on the Katarn status panel. Once the shields are hit, there is a 5 second cooldown before they begin charging again.
-
-The helmet intercom system uses a short range Intercom System frequency to relay communications that cannot be heard by those off of the intercom, or outside the squad. The intercom still allows for use of both short range, and long range radios, but disables the ability to speak in proximity while on. The intercom can be used in a squad wide channel, or can be used in two separate buddy channels. It also comes with volume controls. The intercom has a range of 200m.
-
-![Original document — page 1]({{ "/assets/training/commando-reference-page-1.png" | relative_url }})
-
-## Page 2
-
-The NVG of a commando has four options. Base night Night Vision System vision controls offer basic night vision mode, white hot mode, and black hot mode. As commandos, we also have a Katarn system of Low Light Mode. This increases the lighting in dark environments and increases the light output seen from light sources.
-
-The ST-91 is a stun device that is integrated directly ST-91 Wrist-Plate Stunner into the wrist plate. It has an effective range of about 5m to the front and will temporarily incapacitate personnel that get hit. Using the Moktech Core keybinds is the best way to appropriately use this piece of equipment.
-
-The ST-92 is a variation of the ST-91 device that is ST-92 Repulsor Blaster integrated directly into the wrist plate. It has an effective range of about 5m to the front and will temporarily incapacitate personnel with heart beats that get hit. The main difference between this and the ST-91 is that it does not work on droids. Using the Moktech Core keybinds is the best way to appropriately use this piece of equipment.
-
-The Medic’s backpack has been equipped with three Squad Shield (Medic Only) deployable Squad Shields. These can be activated using the corresponding self-interaction. The squad shield lasts 4 minutes and can effectively absorb a lot of incoming fire. It will not absorb heavy explosions
-
-The TRX-200 IMDS is a variant of the TRX-12 Mine TRX-200 Integrated Mine Detection System (Demo Detection System. The notable differences are the Only) increased range, removal of directional visuals, and it is directly attached to the armor instead of taking up an inventory slot. This piece of equipment isn't typically preferred as the removal of direction to the mine decreased the ability of the demolitionist to locate precise mines.
-
-The Demolitionist’s Backpack has been equipped with Mine Dispenser (Demo Only) an integrated mine dispenser. The dispenser can be activated once, distributing mines behind the Commando in a 60° area.
-
-The CQC Specialist’s Backpack has been equipped Caltrop Dispenser (CQC Only) with an integrated caltrop dispenser. The dispenser can be activated once, distributing non-lethal caltrops behind the Commando in a 60° area. These caltrops will cause victims to ragdoll and become temporarily incapacitated.
-
-![Original document — page 2]({{ "/assets/training/commando-reference-page-2.png" | relative_url }})
-
-## Page 3
-
-### Katarn Wrist Blade
-
-The Katarn Wrist Blade is a melee attachment for the Katarn armour. It allows Commandos to quickly dispatch enemies at close range. It is not effective on higher health contacts. It’s pretty much an instant kill melee.
-
-### Weapons
-
-Normal firing method for the 17M, it's similar to 60 Rounder Energy Cells the Westar in performance and Damage in this mode.
-
-5 rounds of higher powered energy shots. 5 Round Marksmen Typically these are saved for Statics such as Sniper Dekas and Particle Cannons. Best used DC-17M in Single Fire mode
-
-An anti-vehicle shot that is explosive in nature, it does great impact damage but not much splash 1 Round Anti-Mat outside of the small radius. Its best use method is on Vehicles and Statics. 2 Shots will reliably blow up a Blue AAT, 1 shot will blow up a Deka, and ~6 will blow up a dispenser.
-
-The 15S has a 7 round cell that will begin regenerating ammo after 10 seconds of it last DC-15S Sidearm 7 Round Cell being fired. From the 10 Second marker it will regenerate 1 round per second till the Cell is fully charged again.
-
-The PLXs AT rounds are strong enough to One shot Blue AATs and 2 Shot Black AATs. They 2 Round AT have 2 modes of fire and 2 shot types. The 2 modes are Top down or Direct, while the 2 PLX types are Wire Guided and Lock-on
-
-The PLX AA has one means of fire and can one 3 Round AA shot disable HMPs outside the HMP-S. It can only be used in a Lock-On method.
-
-![Original document — page 3]({{ "/assets/training/commando-reference-page-3.png" | relative_url }})
-
-## Page 4
-
-60 Rounder Precision Normal rounds fired out of the Causality. No HE splash, basically just the same as a DC-17M round.
-
-40 Round Normal These rounds have a small HE effect to them Causality that can splash enemies nearby. Not to be used near HVTs.
-
-1 Round Rail Shot The Railshot is used to disable vehicle turrets for 10 seconds. This DOES NOT disable the vehicle's engine so it can still drive away.
-
-The E-403’s AP shots are similar to an Anti-Mat, 5 Round AP they do slightly less damage however have little E-403 to no drop. It's 2-3 Shots to destroy a Blue AAT.
-
-The HE rounds have a decent sized splash, 5 Round HE slightly larger than the 40mm HE. These rounds do have slight drop to them so keep that in mind.
-
-![Original document — page 4]({{ "/assets/training/commando-reference-page-4.png" | relative_url }})
-
+| Deflector Shield System | The Deflector Shield System is the shield that every commando is equipped with. They have a max charge of 100 and negate damage done to commandos when they are online. The charge for them can be seen on the Katarn status panel. Once the shields are hit, there is a 5 second cooldown before they begin charging again. |
+| --- | --- |
+| Intercom System | The helmet intercom system uses a short range frequency to relay communications that cannot be heard by those off of the intercom, or outside the squad. The intercom still allows for use of both short range, and long range radios, but disables the ability to speak in proximity while on. The intercom can be used in a squad wide channel, or can be used in two separate buddy channels. It also comes with volume controls. The intercom has a range of 200m. |
+| Night Vision System | The NVG of a commando has four options. Base night vision controls offer basic night vision mode, white hot mode, and black hot mode. As commandos, we also have a Katarn system of Low Light Mode. This increases the lighting in dark environments and increases the light output seen from light sources. |
+| --- | --- |
+| ST-91 Wrist-Plate Stunner | The ST-91 is a stun device that is integrated directly into the wrist plate. It has an effective range of about 5m to the front and will temporarily incapacitate personnel that get hit. Using the Moktech Core keybinds is the best way to appropriately use this piece of equipment. |
+| ST-92 Repulsor Blaster | The ST-92 is a variation of the ST-91 device that is integrated directly into the wrist plate. It has an effective range of about 5m to the front and will temporarily incapacitate personnel with heart beats that get hit. The main difference between this and the ST-91 is that it does not work on droids. Using the Moktech Core keybinds is the best way to appropriately use this piece of equipment. |
+| Squad Shield (Medic Only) | The Medic’s backpack has been equipped with three deployable Squad Shields. These can be activated using the corresponding self-interaction. The squad shield lasts 4 minutes and can effectively absorb a lot of incoming fire. It will not absorb heavy explosions |
+| TRX-200 Integrated Mine Detection System (Demo Only) | The TRX-200 IMDS is a variant of the TRX-12 Mine Detection System. The notable differences are the increased range, removal of directional visuals, and it is directly attached to the armor instead of taking up an inventory slot. This piece of equipment isn't typically preferred as the removal of direction to the mine decreased the ability of the demolitionist to locate precise mines. |
+| Mine Dispenser (Demo Only) | The Demolitionist’s Backpack has been equipped with an integrated mine dispenser. The dispenser can be activated once, distributing mines behind the Commando in a 60° area. |
+| Caltrop Dispenser (CQC Only) | The CQC Specialist’s Backpack has been equipped with an integrated caltrop dispenser. The dispenser can be activated once, distributing non-lethal caltrops behind the Commando in a 60° area. These caltrops will cause victims to ragdoll and become temporarily incapacitated. |
+|  | − Katarn Wrist Blade The Katarn Wrist Blade is a melee attachment for the Katarn armour. It allows Commandos to quickly dispatch enemies at close range. It is not effective on higher health contacts. It’s pretty much an instant kill melee. Weapons |  |  |  |
+| --- | --- | --- | --- | --- |
+|  | DC-17M | 60 Rounder Energy Cells | Normal firing method for the 17M, it' the Westar in performance and Dam mode. | s similar to age in this |
+|  |  | 5 Round Marksmen | 5 rounds of higher powered energy Typically these are saved for Statics Sniper Dekas and Particle Cannons. in Single Fire mode | shots. such as Best used |
+|  |  | 1 Round Anti-Mat | An anti-vehicle shot that is explosive does great impact damage but not m outside of the small radius. Its best u is on Vehicles and Statics. 2 Shots w blow up a Blue AAT, 1 shot will blow and ~6 will blow up a dispenser. | in nature, it uch splash se method ill reliably up a Deka, |
+|  | DC-15S Sidearm | 7 Round Cell | The 15S has a 7 round cell that will regenerating ammo after 10 second being fired. From the 10 Second ma regenerate 1 round per second till th charged again. | begin s of it last rker it will e Cell is fully |
+|  | PLX | 2 Round AT | The PLXs AT rounds are strong eno shot Blue AATs and 2 Shot Black AA have 2 modes of fire and 2 shot type The 2 modes are Top down or Direc types are Wire Guided and Lock-on | ugh to One Ts. They s. t, while the 2 |
+|  |  | 3 Round AA | The PLX AA has one means of fire a shot disable HMPs outside the HMP only be used in a Lock-On method. | nd can one -S. It can |
+|  |  |  |  |  |
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+|  | Causality | 60 Rounder Precision | Normal rounds fired out of the Caus splash, basically just the same as a round. | ality. No HE DC-17M |
+|  |  | 40 Round Normal | These rounds have a small HE effec that can splash enemies nearby. Not near HVTs. | t to them to be used |
+|  |  | 1 Round Rail Shot | The Railshot is used to disable vehic 10 seconds. This DOES NOT disabl vehicle's engine so it can still drive a | le turrets for e the way. |
+|  | E-403 | 5 Round AP | The E-403’s AP shots are similar to they do slightly less damage howeve to no drop. It's 2-3 Shots to destroy | an Anti-Mat, r have little a Blue AAT. |
+|  |  | 5 Round HE | The HE rounds have a decent sized slightly larger than the 40mm HE. Th do have slight drop to them so keep | splash, ese rounds that in mind. |
+|  |  |  |  |  |
