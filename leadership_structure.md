@@ -1,3 +1,9 @@
+---
+layout: default
+title: Leadership Structure
+category: Community
+---
+
 Unit Leadership Powers
 
 1. JNCO

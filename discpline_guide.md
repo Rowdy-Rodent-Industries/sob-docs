@@ -1,3 +1,9 @@
+---
+layout: default
+title: Discipline Guide
+category: Community
+---
+
 ### Discipline
 
 Unit Rights

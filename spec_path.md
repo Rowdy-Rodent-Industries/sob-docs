@@ -1,3 +1,9 @@
+---
+layout: default
+title: Path to Specialization
+category: Community
+---
+
 ### Path to Specialization
 
 This part of the document will entail all the information that leadership must know about exams, the process of becoming specialized, and all the bits of information that must be written down somewhere.
