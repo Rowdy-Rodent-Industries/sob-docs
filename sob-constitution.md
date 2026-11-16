@@ -21,9 +21,7 @@ General Rules
 
 3. Racism, Disrespect, Harassment, or anything with ill intent is prohibited in any way shape or form.
 
-4. The use of hacking, glitching, exploiting, or using any client-side mods not strictly stated within the
-
-server information channel is not allowed.
+4. The use of hacking, glitching, exploiting, or using any client-side mods not strictly stated within the server information channel is not allowed.
 
 5. Administrative abuse in any way is prohibited at all times.
 
