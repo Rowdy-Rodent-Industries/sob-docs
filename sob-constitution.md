@@ -15,13 +15,9 @@ The purpose of this document will be to set the rules and guidelines of SOB. Thi
 
 General Rules
 
-1. All members of the community must comply with all rules written within this document and any
+1. All members of the community must comply with all rules written within this document and any other public document while representing SOB
 
-other public document while representing SOB
-
-2. All aspects of trolling, spamming, or harm to anybody within our TeamSpeak, Discord, or official
-
-servers are prohibited
+2. All aspects of trolling, spamming, or harm to anybody within our TeamSpeak, Discord, or official servers are prohibited
 
 3. Racism, Disrespect, Harassment, or anything with ill intent is prohibited in any way shape or form.
 
@@ -41,9 +37,7 @@ server information channel is not allowed.
         - IE, maul faces, bandana facewear, or any other additions that aren’t directly added to the arsenal ii.
         - The only faces allowed are clone M/F, or custom faces earned through awards.
 
-9. Kits cannot be mixed and matched. Equipment from one spec/detachment cannot be used on
-
-other spec/detachment kits.
+9. Kits cannot be mixed and matched. Equipment from one spec/detachment cannot be used on other spec/detachment kits.
 
     a. IE, if you have a trooper custom, you cannot wear the trooper custom when running ARC
 
