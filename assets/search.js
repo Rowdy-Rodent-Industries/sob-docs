@@ -11,6 +11,7 @@
   let documents = null;
   let lastFocus = null;
 
+  // Safely escape displayed text.
   const escapeHtml = s => String(s).replace(/[&<>"']/g, c => ({
     '&': '&amp;',
     '<': '&lt;',
@@ -19,12 +20,19 @@
     "'": '&#39;'
   }[c]));
 
-  const indexUrl = new URL(
-    'search.json',
-    document.querySelector('.brand').href
-  ).href;
+  // Resolve the search index relative to the website root.
+  const brand = document.querySelector('.brand');
 
-  // Find the earliest matching search term in the document.
+  const siteRoot = new URL(
+    brand ? brand.href : window.location.href,
+    window.location.href
+  );
+
+  siteRoot.pathname = siteRoot.pathname.replace(/\/?$/, '/');
+
+  const indexUrl = new URL('search.json', siteRoot).href;
+
+  // Find the earliest matching search term.
   function getMatchPosition(content, terms) {
     const lowerContent = content.toLowerCase();
 
@@ -35,15 +43,13 @@
     return positions.length ? Math.min(...positions) : -1;
   }
 
-  // Generate a link that opens the document at the matching passage.
+  // Generate a link to the matching passage.
   function getDeepLink(doc, terms) {
     const content = doc.content || '';
     const matchPosition = getMatchPosition(content, terms);
 
-    // If the match is only in the title, open the document normally.
     if (matchPosition === -1) return doc.url;
 
-    // Extract a passage beginning at the matching search term.
     const fragmentText = content
       .slice(matchPosition, matchPosition + 100)
       .trim()
@@ -51,65 +57,110 @@
 
     if (!fragmentText) return doc.url;
 
-    const target = new URL(doc.url, window.location.href);
+    const target = new URL(doc.url, siteRoot);
 
-    // Preserve any existing page anchor.
-    const existingHash = target.hash ? target.hash.slice(1) : '';
+    const existingHash = target.hash
+      ? target.hash.slice(1)
+      : '';
 
     target.hash = `${existingHash ? `${existingHash}:` : ''}~:text=${encodeURIComponent(fragmentText)}`;
 
     return target.href;
   }
 
-  async function openSearch() {
-    lastFocus = document.activeElement;
-    overlay.hidden = false;
-    document.body.style.overflow = 'hidden';
-    input.focus();
+  // Load the search index.
+  async function loadDocuments() {
+    if (documents !== null) return;
 
-    if (!documents) {
-      results.innerHTML = '<p class="search-hint">Loading documentation…</p>';
+    results.innerHTML =
+      '<p class="search-hint">Loading documentation…</p>';
 
-      try {
-        const response = await fetch(indexUrl);
+    try {
+      const response = await fetch(indexUrl, {
+        cache: 'no-store'
+      });
 
-        if (!response.ok) {
-          throw new Error('Search index unavailable');
-        }
-
-        documents = await response.json();
-        render();
-
-      } catch (error) {
-        results.innerHTML = '<p class="search-hint">Search could not load. Check that GitHub Pages finished building.</p>';
+      if (!response.ok) {
+        throw new Error(
+          `Search index returned HTTP ${response.status}: ${indexUrl}`
+        );
       }
 
-    } else {
+      const data = await response.json();
+
+      // Support either a direct array or a wrapped document collection.
+      if (Array.isArray(data)) {
+        documents = data;
+      } else if (Array.isArray(data.documents)) {
+        documents = data.documents;
+      } else if (Array.isArray(data.pages)) {
+        documents = data.pages;
+      } else {
+        throw new Error(
+          'Unexpected search.json structure. Expected an array of documents.'
+        );
+      }
+
       render();
+
+    } catch (error) {
+      console.error('SOB Docs search error:', error);
+
+      documents = null;
+
+      results.innerHTML = `
+        <p class="search-hint">
+          Search could not load.
+          <br><br>
+          ${escapeHtml(error.message)}
+          <br><br>
+          Check the browser console for details.
+        </p>
+      `;
     }
   }
 
+  // Open search.
+  async function openSearch() {
+    if (!overlay || !input || !results) return;
+
+    lastFocus = document.activeElement;
+
+    overlay.hidden = false;
+    document.body.style.overflow = 'hidden';
+
+    input.focus();
+
+    await loadDocuments();
+  }
+
+  // Close search.
   function closeSearch() {
+    if (!overlay) return;
+
     overlay.hidden = true;
     document.body.style.overflow = '';
+
     lastFocus?.focus();
   }
 
+  // Display search results.
   function render() {
-    if (!documents) return;
+    if (!documents || !input || !results) return;
 
     const q = input.value.trim().toLowerCase();
 
     if (!q) {
-      results.innerHTML = '<p class="search-hint">Start typing to search all documentation.</p>';
+      results.innerHTML =
+        '<p class="search-hint">Start typing to search all documentation.</p>';
       return;
     }
 
     const terms = q.split(/\s+/).filter(Boolean);
 
     const matches = documents.map(doc => {
-      const title = doc.title || '';
-      const content = doc.content || '';
+      const title = String(doc.title || '');
+      const content = String(doc.content || '');
 
       const lowerTitle = title.toLowerCase();
       const lowerContent = content.toLowerCase();
@@ -121,13 +172,13 @@
         return null;
       }
 
-      // Prioritize matches in document titles.
+      // Prioritize title matches.
       const score = terms.reduce(
-        (sum, term) => sum + (lowerTitle.includes(term) ? 5 : 0),
+        (sum, term) =>
+          sum + (lowerTitle.includes(term) ? 5 : 0),
         0
       );
 
-      // Find the passage containing the earliest matching term.
       const matchPosition = getMatchPosition(content, terms);
 
       const start = Math.max(0, matchPosition - 70);
@@ -138,7 +189,9 @@
 
       return {
         title,
-        url: getDeepLink(doc, terms),
+        url: doc.url
+          ? getDeepLink(doc, terms)
+          : '#',
         snippet,
         score
       };
@@ -147,7 +200,6 @@
       .sort((a, b) => b.score - a.score)
       .slice(0, 30);
 
-    // Display the search results.
     results.innerHTML = matches.length
       ? matches.map(match => `
           <a class="result" href="${escapeHtml(match.url)}">
@@ -164,14 +216,16 @@
   close?.addEventListener('click', closeSearch);
 
   overlay?.addEventListener('click', e => {
-    if (e.target === overlay) closeSearch();
+    if (e.target === overlay) {
+      closeSearch();
+    }
   });
 
   input?.addEventListener('input', render);
 
   // Keyboard shortcuts.
   document.addEventListener('keydown', e => {
-    if (e.key === 'Escape' && !overlay.hidden) {
+    if (e.key === 'Escape' && overlay && !overlay.hidden) {
       closeSearch();
     }
 
@@ -180,8 +234,10 @@
         e.key === '/' ||
         (e.key.toLowerCase() === 'k' && (e.ctrlKey || e.metaKey))
       ) &&
-      overlay.hidden &&
-      !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName) &&
+      (!overlay || overlay.hidden) &&
+      !['INPUT', 'TEXTAREA'].includes(
+        document.activeElement.tagName
+      ) &&
       !document.activeElement.isContentEditable
     ) {
       e.preventDefault();
@@ -191,8 +247,9 @@
 
   // Mobile navigation.
   menu?.addEventListener('click', () => {
-    const open = document.body.classList.toggle('nav-open');
-    menu.setAttribute('aria-expanded', String(open));
+    const isOpen = document.body.classList.toggle('nav-open');
+
+    menu.setAttribute('aria-expanded', String(isOpen));
   });
 
 })();
