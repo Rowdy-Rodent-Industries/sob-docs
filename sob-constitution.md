@@ -1,6 +1,7 @@
 ---
 layout: default
 title: SOB Constitution
+category: Community
 ---
 
 # SOB Constitution
