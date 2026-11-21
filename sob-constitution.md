@@ -155,23 +155,23 @@ The purpose of this document will be to set the rules and guidelines of SOB. Thi
 
 18. Zeus training is required to host an operation.
 
-    Teamspeak/Discord Rules
+### Teamspeak/Discord Rules
 
-19. All SOB members are subjected to all rules on any platform including both Teamspeak and discord
+1. All SOB members are subjected to all rules on any platform including both Teamspeak and discord
 
-20. All SOB members are to abide by Discord and Teamspeak TOS
+2. All SOB members are to abide by Discord and Teamspeak TOS
 
-21. All names on any official SOB server must be accurately displayed as to what is on the orbat
+3. All names on any official SOB server must be accurately displayed as to what is on the orbat
 
-22. Explicit images, links, or gifs are strictly prohibited
+4. Explicit images, links, or gifs are strictly prohibited
 
-23. Political, controversial, and possibly offensive conversations must be kept within reason.
+5. Political, controversial, and possibly offensive conversations must be kept within reason.
 
-    a. If conversations turn malicious or ill-intended then they must stop or they will be met with swift action
+    - a. If conversations turn malicious or ill-intended then they must stop or they will be met with swift action
 
-24. All posts within the discord are subjected to being deleted without notification
+6. All posts within the discord are subjected to being deleted without notification
 
-25. All discord and teamspeak means of communication and chats are to be used for their intended purpose.
+7. All discord and teamspeak means of communication and chats are to be used for their intended purpose.
 
 ### Guest Rules
 
@@ -191,7 +191,7 @@ The purpose of this document will be to set the rules and guidelines of SOB. Thi
 
 6. All SRG members may be invited to skirmishes and main operations, with CO approval
 
-a. If SRG members show up, they must either fall in line with a SOB p2 squad, or SOB equivalent squad b. If SRG members have enough to form their own squad, they may do so and fall under a platoon
+    - a. If SRG members show up, they must either fall in line with a SOB p2 squad, or SOB equivalent squad b. If SRG members have enough to form their own squad, they may do so and fall under a platoon
 
 7. All former members of the unit will be given unit friend tags, and are free to play on our servers for any fun op. Any official operations such as Main ops or Joint ops, must be approved by Brigade staff
 
