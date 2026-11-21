@@ -8,7 +8,7 @@ category: Community
 
 ## Leadership Roles
 1. JNCO
-    - All CLC’s and CP’s b. 
+    - All CLC’s and CP’s.
     - No power to DA, or handle disciplinary issues
 
 2. NCO
@@ -22,7 +22,8 @@ category: Community
     - Has power to DA and handle disciplinary issues.
     - Should only council members of their own element.
     - Has the power to put forward awards.
-    - Can vote on awards d. Change things within their element  With brigade approval.
+    - Can vote on awards 
+    - Can change things within their element with brigade approval.
 
 ## Billeted Roles
 1. Squad Leads/2IC

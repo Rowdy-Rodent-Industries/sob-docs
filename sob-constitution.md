@@ -124,7 +124,8 @@ The purpose of this document will be to set the rules and guidelines of SOB. Thi
 
 9. Captured players should always give consent to being captured for an extended period of time.
 
-    - a. If they would prefer to be killed and reinserted that is their right b. Capturing of any kind must be dynamic, you cannot capture a trooper and TP them across the map within seconds Captured players should always be captured with either class 1 or 2 restraints
+    - a. If they would prefer to be killed and reinserted that is their right 
+    - b. Capturing of any kind must be dynamic, you cannot capture a trooper and TP them across the map within seconds Captured players should always be captured with either class 1 or 2 restraints
 
 10. Any captured HVTs that are returned to base unharmed count as captured for the campaign
 
@@ -192,7 +193,8 @@ The purpose of this document will be to set the rules and guidelines of SOB. Thi
 
 6. All SRG members may be invited to skirmishes and main operations, with CO approval
 
-    - a. If SRG members show up, they must either fall in line with a SOB p2 squad, or SOB equivalent squad b. If SRG members have enough to form their own squad, they may do so and fall under a platoon
+    - a. If SRG members show up, they must either fall in line with a SOB p2 squad, or SOB equivalent squad 
+    - b. If SRG members have enough to form their own squad, they may do so and fall under a platoon
 
 7. All former members of the unit will be given unit friend tags, and are free to play on our servers for any fun op. Any official operations such as Main ops or Joint ops, must be approved by Brigade staff
 
