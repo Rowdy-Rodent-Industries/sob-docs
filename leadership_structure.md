@@ -56,12 +56,12 @@ The Brigade staff make up the command staff and strategic vision for the unit. T
 
 ### S-Shop Commander
 
-    - The S-Shop Commander is the individual charged with the management of all S-Shops. Ensuring quality control for training and administrative products in addition to the creation and delivery of unit operations.
-    - They work directly with the Staff leads of each S-Shop to ensure smooth execution of taskings and constant unit support.
+- The S-Shop Commander is the individual charged with the management of all S-Shops. Ensuring quality control for training and administrative products in addition to the creation and delivery of unit operations.
+- They work directly with the Staff leads of each S-Shop to ensure smooth execution of taskings and constant unit support.
 
 ### Brigade NCOIC
-    - The Brigade NCOIC is charged with the development and management of all leadership within the unit from the Junior NCO tier to the Commanding Officer tier. They ensure all levels of leadership perform and lead to a high standard. 
-    -  The Brigade NCOIC will act as 3IC for the unit assisting the Brigade CO and Brigade XO in the execution of their duties.
+- The Brigade NCOIC is charged with the development and management of all leadership within the unit from the Junior NCO tier to the Commanding Officer tier. They ensure all levels of leadership perform and lead to a high standard. 
+-  The Brigade NCOIC will act as 3IC for the unit assisting the Brigade CO and Brigade XO in the execution of their duties.
 
 ### Brigade CO/XO
 
