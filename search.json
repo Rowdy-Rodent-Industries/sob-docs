@@ -1,8 +1,8 @@
-
 ---
 layout: null
 permalink: /search.json
 ---
+
 {% assign docs = site.pages | where_exp: "p", "p.title != nil" %}
 [
 {% for p in docs %}
