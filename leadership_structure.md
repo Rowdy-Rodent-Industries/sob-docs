@@ -61,10 +61,9 @@ The Brigade staff make up the command staff and strategic vision for the unit. T
 
 ### Brigade NCOIC
 - The Brigade NCOIC is charged with the development and management of all leadership within the unit from the Junior NCO tier to the Commanding Officer tier. They ensure all levels of leadership perform and lead to a high standard. 
--  The Brigade NCOIC will act as 3IC for the unit assisting the Brigade CO and Brigade XO in the execution of their duties.
+- The Brigade NCOIC will act as 3IC for the unit assisting the Brigade CO and Brigade XO in the execution of their duties.
 
 ### Brigade CO/XO
 
-The Brigade CO/XO are 1IC and 2IC for the unit and are in charge of the entirety of the Special Operations
-
-Brigade. They will work with Company staff, COs, and the rest of Brigade staff to ensure day-to-day operations of the unit are running smoothly while developing the Strategic Vision for the unit going forward.
+- The Brigade CO/XO are 1IC and 2IC for the unit and are in charge of the entirety of the Special Operations Brigade. 
+- They will work with Company staff, COs, and the rest of Brigade staff to ensure day-to-day operations of the unit are running smoothly while developing the Strategic Vision for the unit going forward.
