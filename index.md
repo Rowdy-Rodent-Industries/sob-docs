@@ -9,10 +9,10 @@ Welcome to the SOB documentation library. Browse by section or use **Search docu
 
 ## Community
 
-- [SOB Constitution]({{ '/sob-constitution' | relative_url }}) — community rules and procedures
+- [SOB Constitution]({{ '/sob-constitution' | relative_url }}) — Community rules and procedures
 - [SOB Discpline Guide]({{ '/discpline_guide' | relative_url }}) — Leadership Discpline Guide
 - [SOB Leadership Structure]({{ '/leadership_structure' | relative_url }}) — Leadership Structure
-- [SOB Path to Specialization]({{ '/spec_path' | relative_url }}) — The guide to how to be come spec'd
+- [SOB Path to Specialization]({{ '/spec_path' | relative_url }}) — The guide to how to be come specialized
 
 ## Mission Making
 
