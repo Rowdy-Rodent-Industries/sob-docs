@@ -35,21 +35,21 @@ When entering leadership ranks that require all of the specs, your maximum rank 
 
 ## Leadership Structure
 
-# Junior NCOs
+### Junior NCOs
 
 Junior NCOs are the lowest level of NCOs and are typically brand new to the leadership team. They are simply there to learn how to be a leader and to lead their squad, however, they have no actual power or position to write DAs, or handle disciplinary issues within the squad, platoon, or company. 
 
 They will however have access to the NCO chat so they may see all information being passed along throughout leadership, as well as access to the DA roster to see when and who are receiving DAs. 
 
-# NCOs
+### NCOs
 
 NCOs will make up the bulk of the leadership team. Similar to JNCOs they have no real ability to handle DAs or disciplinary problems.  Both NCOS and JNCOs have the ability to put people up for awards but may not vote on them.
 
-# COs
+### COs
 
 COs are at the forefront of the unit. These members have the ability to give DAs, vote on Awards, change things within their respective elements (with UC approval), and have relative power within their element. These members are the ones entrusted with running the day-to-day needs of the unit. 
 
-# Squad Leads/2IC
+### Squad Leads/2IC
 
 Squad leads and 2ICs of a squad are in charge of just that, their squad. They make sure that the 2 other members with them are doing as they are supposed to, showing up to ops, and completing training as needed to prepare for the Specialization exam of their choosing. They must go to their respective Company Staff for billeting and unbilleting purposes however they have the power to choose who is and isn’t in their squad. No one else can force members into these squads, Squads must unanimously agree to the member before billeting. 
 
@@ -57,7 +57,7 @@ Squad leads and 2ICs are also responsible for the well-being of their squad. The
 
 P2 squad leads are capped at CP, and Specialized squad leads are capped at CS. P2 Squad 2ICs are capped at CLC and Specialized 2ICs are capped at CP. 
 
-# Platoon Leads/XO
+### Platoon Leads/XO
 
 Platoon leads and XOs are in charge of their respective Platoons. They have no power over billeting as that falls to the CO or Company Lead, and the majority of their job is ensuring that their squads are working to specializations, people are showing up to ops, and that their platoon is performing to the level they are supposed to. 
 
@@ -70,7 +70,7 @@ If you declare a specialization and wish to change you must discuss it with your
 
 This has no effect on the prefix to your name, as you are in a P2 billet and therefore Identified by Rank. 
 
-# Company Leads/XO
+### Company Leads/XO
 
 Company Leads and XOs are the COs of the unit and have the powers described above. They are directly in charge of the company under them and only have the power to change things within their company. They have the ability to billet and unbillet as need be, run tryouts for platoon leads and XOs, and work with their advisor to prepare P2 squads for their exam. 
 
@@ -80,7 +80,7 @@ Company Leads and XOs also have the ability to be proctors for specialization Ex
 
 Company Leads and XOs are the only members of the unit allowed to proctor exams and as such comes a heavy responsibility. This is not to be abused however their position gives them a unique perspective on the unit, and the ability to give feedback, advice, and FTXs as they see fit.
 
-# Detachment Leads/XO
+### Detachment Leads/XO
 
 Detachment Leads and XOs have the power to billet, unbillet, and change their detachment or training as they see fit (with approval from UC). They are the people charged with running a detachment and have the ability to do so as they see fit. They have the responsibility to ensure that the detachment is performing to the quality and expectation set by the UC as well as that the needs of the unit are met by that detachment. They should be actively working with other COs as well as the mod team to ensure that they’re performing to the best of their ability. 
 
