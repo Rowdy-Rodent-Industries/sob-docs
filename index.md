@@ -39,3 +39,9 @@ Quick references and training handouts for SOB members.
 - [Technician Reference]({{ '/technician-reference' | relative_url }})
 - [ARC Reference]({{ '/arc-reference' | relative_url }})
 - [Commando Reference]({{ '/commando-reference' | relative_url }})
+
+## Standard Operating Procedure Documents
+
+Operating procedures for different parts of the community 
+
+- - [Leadership SOP]({{ '/leadership-sop' | relative_url }})
