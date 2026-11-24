@@ -32,7 +32,8 @@ The purpose of this document will be to set the rules and guidelines of SOB. Thi
 
 8. All members are to adhere to the Kit guide at all times
 
-    - a. Company Staff within operations do not count to the limit of weapons within a platoon b. Additional facewear and faces not provided in the arsenal is not permitted at any time i.
+    - a. Company Staff within operations do not count to the limit of weapons within a platoon 
+    - b. Additional facewear and faces not provided in the arsenal is not permitted at any time i.
         - IE, maul faces, bandana facewear, or any other additions that aren’t directly added to the arsenal ii.
         - The only faces allowed are clone M/F, or custom faces earned through awards.
 
@@ -60,7 +61,9 @@ The purpose of this document will be to set the rules and guidelines of SOB. Thi
 
     - a. Communications should be kept strictly to information on an as-needed basis.
 
-17. Field Requisitioning enemy equipment and vehicles is only allowed with SL+ approval when absolutely necessary to ensure survival a. When field-requisitioning vehicles, this must be communicated to all members within an operation b. Field-requisitioned equipment should only be used until you have the ability to re-kit, or use a SOB vehicle/weapon
+17. Field Requisitioning enemy equipment and vehicles is only allowed with SL+ approval when absolutely necessary to ensure survival 
+    - a. When field-requisitioning vehicles, this must be communicated to all members within an operation 
+    - b. Field-requisitioned equipment should only be used until you have the ability to re-kit, or use a SOB vehicle/weapon
 
 18. You must run as your billeted role on your billeted day, you may not change your specialization mid-op.
 
@@ -112,7 +115,8 @@ The purpose of this document will be to set the rules and guidelines of SOB. Thi
 
 5. The difficulties and scale of an operation, objective, or task should make sense per the operation.
 
-    - a. Operations should have logical reinforcements, dynamically implemented b. Scaling operations and tasks based off of the element tasked with it is acceptable within reason
+    - a. Operations should have logical reinforcements, dynamically implemented 
+    - b. Scaling operations and tasks based off of the element tasked with it is acceptable within reason
 
 6. Excessive usage of artillery is not allowed.
 

@@ -61,7 +61,7 @@ P2 squad leads are capped at CP, and Specialized squad leads are capped at CS. P
 
 Platoon leads and XOs are in charge of their respective Platoons. They have no power over billeting as that falls to the CO or Company Lead, and the majority of their job is ensuring that their squads are working to specializations, people are showing up to ops, and that their platoon is performing to the level they are supposed to. 
 
-Platoon leads are capped at Second Lieutenant and XOs are capped at CSM, both require both specializations to reach. 
+Platoon leads are capped at Second Lieutenant and XOs are capped at CSM, both require all specializations to reach. 
 
 Platoon Lead/XO is typically a P2 billet however they have the ability to run a Specialisation like everyone else, below are the ways they can. They must be certified in both specializations to run them. 
 If a platoon Lead or XO is billeted within a squad in their platoon, they must run the specialization of that squad, with that squad. They cannot be a lone commando.
