@@ -1027,8 +1027,3 @@ This document contains a list of possible Objectives for our Zeus players and Mi
   });
 })();
 </script>
-
-
-## Additional Notes
-
-Id libero condimentum vestibulum
