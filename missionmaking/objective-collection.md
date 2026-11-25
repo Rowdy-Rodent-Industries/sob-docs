@@ -975,7 +975,7 @@ category: Mission Making
 }
 
 .objective {
-  background: #454b54 !important;
+  background: #3b414a !important;
   border-color: #454d59 !important;
 }
 
