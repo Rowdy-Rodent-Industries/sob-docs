@@ -926,9 +926,6 @@ category: Mission Making
   }
 }
 
-
-/* FIX: Objective Chart Text Visibility */
-
 .objective-chart {
   color: #e8e8e8 !important;
 }
