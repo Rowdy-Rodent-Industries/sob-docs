@@ -6,10 +6,6 @@ category: Mission Making
 
 # Objective Collection
 
-## Summary
-
-This document contains a list of possible Objectives for our Zeus players and Mission Makers
-
 <div class="objective-chart">
 
   <div class="objective-header">
