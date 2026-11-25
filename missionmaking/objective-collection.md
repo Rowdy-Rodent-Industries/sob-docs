@@ -929,6 +929,72 @@ This document contains a list of possible Objectives for our Zeus players and Mi
     grid-template-columns: 1fr;
   }
 }
+
+
+/* FIX: Objective Chart Text Visibility */
+
+.objective-chart {
+  color: #e8e8e8 !important;
+}
+
+.objective-header h2,
+.objective-header p {
+  color: #ffffff !important;
+}
+
+.objective summary {
+  color: #ffffff !important;
+}
+
+.objective-content {
+  color: #e0e0e0 !important;
+}
+
+.objective-content h3 {
+  color: #ffffff !important;
+}
+
+.objective-content h4 {
+  color: #8db8ff !important;
+}
+
+.objective-content p,
+.objective-content li {
+  color: #d1d5db !important;
+}
+
+#objectiveSearch {
+  color: #ffffff !important;
+  background: #252a33 !important;
+  border-color: #505866 !important;
+}
+
+#objectiveSearch::placeholder {
+  color: #a0a8b5 !important;
+}
+
+.objective summary:hover {
+  color: #ffffff !important;
+  background: #303640 !important;
+}
+
+.objective {
+  background: #20252d !important;
+  border-color: #454d59 !important;
+}
+
+.objective-content {
+  border-color: #454d59 !important;
+}
+
+.effects > div {
+  background: #292f39 !important;
+}
+
+#noObjectives {
+  color: #e0e0e0 !important;
+}
+
 </style>
 
 <script>
