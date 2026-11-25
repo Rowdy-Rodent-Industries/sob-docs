@@ -21,9 +21,9 @@ Welcome to the SOB documentation library. Browse by section or use **Search docu
 
 ## Field References
 
-- [Map Marker Cheat Sheet]({{ '/field_docs/map-marker-cheat-sheet' | relative_url }}) — marker formats, naming alphabets, and glossary
-- [Tactical Tasks]({{ '/field_docs/tactical-tasks' | relative_url }}) — offensive, defensive, and shaping tasks
-- [Base Keybindings]({{ '/field_docs/base-keybindings' | relative_url }}) — recommended keybindings
+- [Map Marker Cheat Sheet]({{ '/field-docs/map-marker-cheat-sheet' | relative_url }}) — marker formats, naming alphabets, and glossary
+- [Tactical Tasks]({{ '/field-docs/tactical-tasks' | relative_url }}) — offensive, defensive, and shaping tasks
+- [Base Keybindings]({{ '/field-docs/base-keybindings' | relative_url }}) — recommended keybindings
 
 ## Training Refreshers
 
