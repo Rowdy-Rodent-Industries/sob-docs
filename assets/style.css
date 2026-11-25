@@ -331,12 +331,13 @@ li::marker {
 }
 
 /* =========================
-    TABLES
+   TABLES
 ========================= */
 
 table {
-    display: block;
+    width: 100%;
     max-width: 100%;
+    table-layout: auto;
     overflow-x: auto;
     border-collapse: separate;
     border-spacing: 0;
