@@ -826,7 +826,7 @@ category: Mission Making
   padding: 12px 15px;
   border: 1px solid var(--border-color, #444);
   border-radius: 8px;
-  background: var(--code-background, #343a40);
+  background: var(--code-background, #454b54);
   color: inherit;
   font-size: 15px;
 }
@@ -840,7 +840,7 @@ category: Mission Making
   margin-bottom: 10px;
   border: 1px solid var(--border-color, #444);
   border-radius: 8px;
-  background: var(--card-background, #343a40);
+  background: var(--card-background, #454b54);
   overflow: hidden;
 }
 
