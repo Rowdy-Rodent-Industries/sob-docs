@@ -44,4 +44,4 @@ Quick references and training handouts for SOB members.
 
 Operating procedures for different parts of the community 
 
-- [Leadership SOP]({{ '/leadership-sop' | relative_url }})
+- [Leadership SOP]({{ '/sop/leadership-sop' | relative_url }})
