@@ -29,7 +29,7 @@ This part of the document will entail all the information that leadership must k
     - You must first take the FTX/PE for your billeted specialization before attempting to get another one.
     - The FTX is a baseline for any Cadet squad and is a basic test for all the trainings you have completed and showing your ability to work as a squad.
 
-After passing the FTX, you will be eligible to attempt the PE.
+- After passing the FTX, you will be eligible to attempt the PE.
     -  The PE is the final stages for becoming a specialized trooper and tests you on every aspect of the specialization.
     - Exercises require the examinees to be at their absolute best. Each exam is created to test the examinee on all training taken up to that point and the examinee’s ability to perform their responsibility within their specialization. For a squad to pass, they must use every possible avenue of success. 
     - In the event that a person fails the exam, the proctors will always give feedback, the good, the bad, and the ugly. This information is relevant information that, if honed in on, can help pass the exam in the future. 
